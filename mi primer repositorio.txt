@@ -1,5 +1,3 @@
-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
-
 …or create a new repository on the command line
 
 echo "# PrepCourse-Henry" >> README.md
