@@ -1,1 +1,1 @@
-Repositorio de prueba para comandos git.
+Archivos creados en el marco del curso preparatorio de Henry.
