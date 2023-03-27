@@ -2,6 +2,8 @@
 //esos elementos son datos y son de diferentes tipos.
 // String (palabras o cadenas de texto)
 var bootcamp = 'Henry';
+//tambien se puede usar string.length como opción para contar las letras.
+var string = "modo string".length
 
 // Números
 var numeroEntero = 17;
