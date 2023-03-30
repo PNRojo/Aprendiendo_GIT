@@ -1,9 +1,0 @@
-git clone https:
-git init
-git add
-git commit -m "texto"
-git log
-git status
-git branch -M main
-git remote add origin https:
-git push -u origin main
