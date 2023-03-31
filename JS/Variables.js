@@ -15,7 +15,7 @@ var estoyEntendiendo = true;
 var estoyAburrido = false;
 
 // Undefined (aún no le asignamos valor a la variable)
-var cajon1;
+var cajon1 = "perro";
 console.log(cajon1);
 
 // Null (asigna a propósito el valor nulo)
