@@ -4,10 +4,11 @@ console.log(4 > 4);
 console.log(4 == 7);
 
 // hay que diferencias = de == y de ===. El primero es un operador de asignación de funciones.
-// operadores de igualdad == (igualdad simple - solo tipo de dato) y === (igualdad estricta de tipo de dato y valor)
+// operadores de igualdad == (igualdad simple - solo del valor aunque distinto tipo de dato)
+// y === (igualdad estricta de tipo de dato y valor)
 
-3 == 3;
-3 === 3;
+// 3 == 3;
+// 3 === 3;
 console.log (3 == '3');
 console.log (3 === '3');
 
