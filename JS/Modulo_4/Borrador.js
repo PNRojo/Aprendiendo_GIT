@@ -1,5 +1,10 @@
-var suma = 0;
-for (var e=0 ; e<=3 ; e++){
-    suma = suma +1;
-    console.log("Resultado de suma ", suma);
+function esPrimo(num){
+    if (num <= 1) {
+        return (false);
+    }
+    for (var i=2 ; i<num ; i++) {
+        if (num % i === 0) {
+            return (false);
+        }
+    } return true;
 }

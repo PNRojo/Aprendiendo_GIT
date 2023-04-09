@@ -1,6 +1,8 @@
 var suma1 = 0;
 var suma2 = 0;
 var suma3 = 0;
+var suma4 = 0;
+var suma5 = 0;
 // Forma manual de hacer el bucle:
 // suma = suma + 1; la variable suma pasa de valer 0 a valer 1
 // suma = suma + 2; la variable suma pasa de valer 1 a valer 3 (1+2)
@@ -22,5 +24,26 @@ for (var i=0 ; i<5 ; i++){
 // WHILE Sintaxis: while (condiciónDeCumplimiento) En este caso debe ser una condición logica que pueda ser true o false.
 while (suma3 < 3){
     suma3 = suma3 + 1;
-    console.log(suma3);
+    // console.log(suma3);
 }
+
+//BREAK. Sirve para cortar un bucle ante una condición.
+while (suma4 < 6) {
+    if (suma4 === 3) {
+      break;
+    }
+    suma4 = suma4 + 1;
+}
+// console.log (suma4);
+
+//CONTINUE. A diferencia de Break, solo corta una iteración esperífica del bucle, pero este continúa.
+var text = "";
+
+for (var u = 0; u < 10; u++) {
+  if (u === 3) {
+    continue;
+  }
+  console.log(u);
+  text = text + u;
+}
+console.log(text);
