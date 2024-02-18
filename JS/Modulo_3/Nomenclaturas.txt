@@ -1,3 +1,0 @@
-camelCase = sin espacios pero toda palabra después de la 1º se inician con mayúscula.
-PascalCase = acá tambien se arranca con mayúscula.
-snake_case = todo en minuscula y separando las palabras con guión bajo.
