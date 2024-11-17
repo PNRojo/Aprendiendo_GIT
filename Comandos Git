@@ -1,6 +1,6 @@
-git clone https:
-git init
-git add
+git clone https: # clonar el repositorio
+git init # dentro de cada repositorio
+git add # seleccionar el archivo
 git commit -m "texto"
 git log
 git status

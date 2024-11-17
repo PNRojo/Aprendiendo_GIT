@@ -2,3 +2,5 @@ git config --global user.email "rojopablonicolas@gmail.com"
 git config --global user.name "PNRojo"
 git config --global credential.helper store
 git config --global init.defaultBranch main
+
+Hay que crear un token para hacer syncro con htpps
